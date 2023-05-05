@@ -127,8 +127,8 @@ def test_stream_slices_report(advertiser_ids, granularity, slices_expected, pend
 @pytest.mark.parametrize(
     "stream, metrics_number",
     [
-        (AdsReports, 59),
-        (AdGroupsReports, 55),
+        (AdsReports, 69),
+        (AdGroupsReports, 66),
         (AdvertisersReports, 44),
         (CampaignsReports, 43),
         (AdvertisersAudienceReports, 6),

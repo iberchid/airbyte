@@ -159,6 +159,8 @@ class SourceTiktokMarketing(AbstractSource):
                         AdsAudienceReports(**report_args),
                         AdGroupAudienceReports(**report_args),
                         CampaignsAudienceReportsByCountry(**report_args),
+                        AdsAudienceReportsByCountry(**report_args),
+                        AdsAudienceReportsByProvince(**report_args),
                     ]
                 )
 
